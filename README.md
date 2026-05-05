@@ -164,6 +164,69 @@ P V G's College Of Science (2014 - 2018)
 
 ---
 
+## 🔗 Featured Repositories
+
+<table>
+<tr>
+<td width="50%">
+
+### 🎬 XO Anime
+
+**Anime Streaming Platform**
+
+- Django + HLS Streaming
+- Multi-API Integration
+- 2000+ Users Supported
+
+[View Repository →](https://github.com/code-kasha/xoanime)
+
+</td>
+<td width="50%">
+
+### 🛒 Shoppy Globe
+
+**E-Commerce Platform**
+
+- Node.js + MongoDB
+- React Frontend
+- Scalable APIs
+
+[View Repository →](https://github.com/code-kasha/is_shoppy_globe)
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 📺 YouTube Clone
+
+**Video Streaming App**
+
+- MERN Stack
+- JWT Authentication
+- Real-time Updates
+
+[View Repository →](https://github.com/code-kasha/yt-clone)
+
+</td>
+<td width="50%">
+
+### 📚 Online Library
+
+**Library Management**
+
+- React + Redux
+- Tailwind CSS
+- Clean Architecture
+
+[View Repository →](https://github.com/code-kasha/online-library)
+
+</td>
+</tr>
+</table>
+
+---
+
 ## 🤝 Let's Connect!
 
 I'm always interested in discussing exciting projects, opportunities, and collaborations.
@@ -175,19 +238,15 @@ I'm always interested in discussing exciting projects, opportunities, and collab
 
 ---
 
-## 📊 GitHub Stats
+## 📌 Quick Stats
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=code-kasha&show_icons=true&theme=dark&count_private=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=code-kasha&layout=compact&theme=dark)
-
----
-
-## 🌟 Recent Activity
-
-Check out my pinned repositories below to see my latest and most impressive work!
+- 🔧 **Total Projects:** 30+
+- 👥 **Active Users:** 2000+
+- ⚡ **Performance Boost:** 20-35%
+- 📚 **Years Coding:** 6+
+- 🌍 **Clients Served:** Schools, Clinics, SMBs, Enterprises
 
 ---
 
-**Last Updated:** 2026  
-**Status:** 🟢 Open to freelance projects and collaborations
+**Status:** 🟢 Open to freelance projects and collaborations  
+**Last Updated:** 2026
