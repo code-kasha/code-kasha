@@ -166,64 +166,10 @@ P V G's College Of Science (2014 - 2018)
 
 ## 🔗 Featured Repositories
 
-<table>
-<tr>
-<td width="70%">
-
-### 🎬 XO Anime
-
-**Anime Streaming Platform**
-
-- Django + HLS Streaming
-- Multi-API Integration
-- 2000+ Users Supported
-
-[View Repository →](https://github.com/code-kasha/xoanime)
-
-</td>
-<td width="70%">
-
-### 🛒 Shoppy Globe
-
-**E-Commerce Platform**
-
-- Node.js + MongoDB
-- React Frontend
-- Scalable APIs
-
-[View Repository →](https://github.com/code-kasha/is_shoppy_globe)
-
-</td>
-</tr>
-<tr>
-<td width="70%">
-
-### 📺 YouTube Clone
-
-**Video Streaming App**
-
-- MERN Stack
-- JWT Authentication
-- Real-time Updates
-
-[View Repository →](https://github.com/code-kasha/yt-clone)
-
-</td>
-<td width="70%">
-
-### 📚 Online Library
-
-**Library Management**
-
-- React + Redux
-- Tailwind CSS
-- Clean Architecture
-
-[View Repository →](https://github.com/code-kasha/online-library)
-
-</td>
-</tr>
-</table>
+|                                                                                                                                                                                            |                                                                                                                                                                               |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| **🎬 XO Anime** <br> Anime Streaming Platform <br> • Django + HLS Streaming <br> • Multi-API Integration <br> • 2000+ Users Supported <br> [View →](https://github.com/code-kasha/xoanime) | **🛒 Shoppy Globe** <br> E-Commerce Platform <br> • Node.js + MongoDB <br> • React Frontend <br> • Scalable APIs <br> [View →](https://github.com/code-kasha/is_shoppy_globe) |
+| **📺 YouTube Clone** <br> Video Streaming App <br> • MERN Stack <br> • JWT Authentication <br> • Real-time Updates <br> [View →](https://github.com/code-kasha/yt-clone)                   | **📚 Online Library** <br> Library Management <br> • React + Redux <br> • Tailwind CSS <br> • Clean Architecture <br> [View →](https://github.com/code-kasha/online-library)  |
 
 ---
 
