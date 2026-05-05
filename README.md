@@ -168,7 +168,7 @@ P V G's College Of Science (2014 - 2018)
 
 <table>
 <tr>
-<td width="50%">
+<td width="70%">
 
 ### 🎬 XO Anime
 
@@ -181,7 +181,7 @@ P V G's College Of Science (2014 - 2018)
 [View Repository →](https://github.com/code-kasha/xoanime)
 
 </td>
-<td width="50%">
+<td width="70%">
 
 ### 🛒 Shoppy Globe
 
@@ -196,7 +196,7 @@ P V G's College Of Science (2014 - 2018)
 </td>
 </tr>
 <tr>
-<td width="50%">
+<td width="70%">
 
 ### 📺 YouTube Clone
 
@@ -209,7 +209,7 @@ P V G's College Of Science (2014 - 2018)
 [View Repository →](https://github.com/code-kasha/yt-clone)
 
 </td>
-<td width="50%">
+<td width="70%">
 
 ### 📚 Online Library
 
