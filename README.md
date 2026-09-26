@@ -84,21 +84,20 @@ India's postal directory as a lookup page, a JSON API and a one-file download
 - **Highlights:** All-or-nothing imports, one-request lookup page with no JavaScript, provenance on every page
 - **Release:** v1.0.0 with a public Docker image and a [live demo](https://bharat-post-dir.onrender.com/) (until 26 December 2026)
 
-### 🗂️ [Lead Management Platform](https://github.com/code-kasha/lead-platform-digital_heroes)
+### 🗂️ [Lead Management Platform](https://github.com/code-kasha/lead-platform)
 
 Lead management built to a short deadline as a qualification task
 
-- **Tech:** Django REST Framework, React, TypeScript
+- **Tech:** Django REST Framework, PostgreSQL, React, TypeScript
 - **Features:** Lead creation, assignment, status transitions, notes and activity history
-- **Highlights:** Role-based access enforced on the server, TypeScript models generated from the OpenAPI spec, JWT with refresh tokens
+- **Highlights:** Role-based access enforced on the server, TypeScript models generated from the OpenAPI spec, JWT with refresh tokens and logout blacklisting
 
-### 📚 [MaxRead API](https://github.com/code-kasha/maxread-api)
+### 🌐 [Portfolio](https://github.com/code-kasha/akash-damle-portfolio)
 
-REST API for a novel-reading app
+The source for [akashdamle.in](https://www.akashdamle.in): my projects and case studies
 
-- **Tech:** Express, TypeScript, MongoDB, Zod
-- **Features:** Novels, chapters, search, genre and tag filters, pagination
-- **Highlights:** Zod schemas drive validation and the OpenAPI docs; integration tests in CI with lint and type-check
+- **Tech:** Next.js, React, TypeScript, Tailwind CSS
+- **Features:** Project case studies, sitemap and robots generated from one profile file, generated social card
 
 ---
 
