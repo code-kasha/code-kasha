@@ -65,7 +65,8 @@
 | **Experience**          | 8+ years of total experience                          |
 | **Client Systems**      | 27+ Django CRM systems, built and self-hosted         |
 | **Clients**             | Schools, clinics and small businesses                 |
-| **Latest Release**      | bharat-post-dir v1.0.0: 155,599 offices, 119 tests    |
+| **Latest Releases**     | lead-platform v1.0.0: 99 backend and 74 frontend tests |
+|                         | bharat-post-dir v1.0.0: 155,599 offices, 119 tests    |
 
 ---
 
@@ -88,9 +89,10 @@ India's postal directory as a lookup page, a JSON API and a one-file download
 
 Lead management built to a short deadline as a qualification task
 
-- **Tech:** Django REST Framework, PostgreSQL, React, TypeScript
-- **Features:** Lead creation, assignment, status transitions, notes and activity history
-- **Highlights:** Role-based access enforced on the server, TypeScript models generated from the OpenAPI spec, JWT with refresh tokens and logout blacklisting
+- **Tech:** Django REST Framework, PostgreSQL, React, TypeScript, Docker
+- **Features:** Lead creation, assignment, a validated status pipeline, notes, an automatic activity timeline and a public enquiry form
+- **Highlights:** Role-based access enforced on the server, TypeScript types generated from the OpenAPI schema and checked in CI, rotating and blacklisted JWT refresh tokens
+- **Release:** v1.0.0 with a public Docker image and a [live demo](https://lead-platform-c3mw.onrender.com/) (until 26 December 2026)
 
 ### 🌐 [Portfolio](https://github.com/code-kasha/akash-damle-portfolio)
 
