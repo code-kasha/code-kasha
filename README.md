@@ -1,74 +1,152 @@
-# Akash Damle
+# Hi there, I'm Akash Damle 👋
 
-**Backend engineer, 8+ years of total experience.** I build and run systems in Django, with Node.js and TypeScript alongside: typed API contracts, test suites that run in CI, and deployments I maintain myself.
-
-Badlapur, India · Available for remote roles · [akashdamle.in](https://www.akashdamle.in)
+**Backend engineer with 8+ years of total experience.** I build and run systems in Django, with Node.js and TypeScript alongside: typed API contracts, test suites that run in CI, and deployments I maintain myself.
 
 ---
 
-## Work
+## 🚀 About Me
 
-**Freelance Software Engineer** · Independent, remote · Mar 2021 – present
+- **Backend first** - Schema design, REST APIs and the business rules behind them
+- **Tested and typed** - Integration tests that run in CI, and API contracts generated from one schema
+- **Self-hosted** - Linux servers with PostgreSQL that I provision, back up and upgrade myself
+- **Business software** - CRM, operations and lead workflows for schools, clinics and small businesses
 
-- Built and self-host Django CRM systems for 27+ clients: schools, clinics and small businesses. Employee management, payroll, attendance and reporting.
-- Own the backend on every engagement: schema design, REST API, provisioning, release and ongoing support. Sole engineer on some; on others, alongside a frontend developer.
-- Run the infrastructure directly: self-managed Linux servers with PostgreSQL, including backups, TLS and upgrades.
-
-**Junior Software Developer** · Matalli Infotech, Dombivli · Aug 2018 – Feb 2021
-
-- Built and maintained internal web applications on Django 2.2 LTS in a small team.
-- Wrote unit and database-level tests, worked on CI/CD pipelines, and managed deployments to Linux servers, AWS and Heroku.
+**Location:** Badlapur, Maharashtra, India 🇮🇳  
+**Experience:** 8+ years of total experience  
+**Current Status:** Freelance Software Engineer · Open to remote roles  
+**Website:** [akashdamle.in](https://www.akashdamle.in)
 
 ---
 
-## Projects
+## 💻 Tech Stack
 
-### [bharat-post-dir](https://github.com/code-kasha/bharat-post-dir)
+### Backend
 
-India's postal directory as a lookup page, a JSON API and a one-file download: 155,599 offices, with every page stating where the data came from. Django, Django REST Framework, SQLite, Docker.
+![Django](https://img.shields.io/badge/Django-092E20?style=for-the-badge&logo=django&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![DRF](https://img.shields.io/badge/Django%20REST-ff1709?style=for-the-badge&logo=django&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
 
-- Imports are validated in full, then replace the directory in one transaction; a failed import changes nothing.
-- The lookup page costs one HTTP request, with no JavaScript, and works by keyboard and screen reader.
-- v1.0.0 is released with a public Docker image for amd64 and arm64, and a [live demo](https://bharat-post-dir.onrender.com/) until 26 December 2026.
+### Databases
 
-### [Lead Management Platform](https://github.com/code-kasha/lead-platform-digital_heroes)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-13AA52?style=for-the-badge&logo=mongodb&logoColor=white)
 
-Lead management built to a short deadline as a qualification task. Django REST Framework, React, TypeScript.
+### Testing & API Contracts
 
-- Role-based access control across the lead lifecycle: creation, assignment, status transitions, notes and activity history, enforced on the server.
-- The OpenAPI specification generates the TypeScript models the frontend uses, so a backend change shows up as a type error.
-- JWT authentication with refresh tokens.
+![Pytest](https://img.shields.io/badge/Pytest-0A9EDC?style=for-the-badge&logo=pytest&logoColor=white)
+![Vitest](https://img.shields.io/badge/Vitest-6E9F18?style=for-the-badge&logo=vitest&logoColor=white)
+![Zod](https://img.shields.io/badge/Zod-3E67B1?style=for-the-badge&logo=zod&logoColor=white)
+![OpenAPI](https://img.shields.io/badge/OpenAPI-6BA539?style=for-the-badge&logo=openapiinitiative&logoColor=white)
 
-### [MaxRead API](https://github.com/code-kasha/maxread-api)
+### DevOps & Tools
 
-A REST API for a novel-reading app. Express, TypeScript, MongoDB.
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=for-the-badge&logo=amazonaws&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-- Zod schemas drive request validation and the generated OpenAPI docs, so the two cannot drift.
-- Integration tests with Vitest and Supertest against an in-memory MongoDB, run by GitHub Actions with lint and type-check on every push.
+### Frontend
 
-### CRM · in research and planning
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
+
+---
+
+## 📊 At a Glance
+
+| Metric                  | Detail                                                |
+| ----------------------- | ----------------------------------------------------- |
+| **Experience**          | 8+ years of total experience                          |
+| **Client Systems**      | 27+ Django CRM systems, built and self-hosted         |
+| **Clients**             | Schools, clinics and small businesses                 |
+| **Latest Release**      | bharat-post-dir v1.0.0: 155,599 offices, 119 tests    |
+
+---
+
+## 🎯 Featured Projects
+
+### 🧭 CRM · In research and planning
 
 My main product: a CRM that arrives already set up for how your business works (sales, agency, real estate or field services) instead of making you configure it first.
 
+### 📮 [bharat-post-dir](https://github.com/code-kasha/bharat-post-dir)
+
+India's postal directory as a lookup page, a JSON API and a one-file download
+
+- **Tech:** Django, Django REST Framework, SQLite, Docker
+- **Features:** PIN lookup, office search, whole-directory download, bring your own dataset
+- **Highlights:** All-or-nothing imports, one-request lookup page with no JavaScript, provenance on every page
+- **Release:** v1.0.0 with a public Docker image and a [live demo](https://bharat-post-dir.onrender.com/) (until 26 December 2026)
+
+### 🗂️ [Lead Management Platform](https://github.com/code-kasha/lead-platform-digital_heroes)
+
+Lead management built to a short deadline as a qualification task
+
+- **Tech:** Django REST Framework, React, TypeScript
+- **Features:** Lead creation, assignment, status transitions, notes and activity history
+- **Highlights:** Role-based access enforced on the server, TypeScript models generated from the OpenAPI spec, JWT with refresh tokens
+
+### 📚 [MaxRead API](https://github.com/code-kasha/maxread-api)
+
+REST API for a novel-reading app
+
+- **Tech:** Express, TypeScript, MongoDB, Zod
+- **Features:** Novels, chapters, search, genre and tag filters, pagination
+- **Highlights:** Zod schemas drive validation and the OpenAPI docs; integration tests in CI with lint and type-check
+
 ---
 
-## Stack
+## 💼 Professional Experience
 
-**Backend:** Django, Django REST Framework, Node.js, Express  
-**Languages:** Python, TypeScript, JavaScript, SQL  
-**Data:** PostgreSQL, MongoDB, SQLite, schema design, query tuning  
-**Quality:** Pytest, Vitest, Supertest, Zod, OpenAPI  
-**Platform:** Linux, Docker, GitHub Actions, AWS, Heroku  
-**Frontend:** React, Next.js, Tailwind CSS
+### **Freelance Software Engineer** (Mar 2021 – Present)
+
+- Built and self-host Django CRM systems for **27+ clients**: schools, clinics and small businesses
+- Covering employee management, payroll, attendance and reporting
+- Own the backend on every engagement: schema design, REST API, provisioning, release and support
+- Sole engineer on some engagements; on others, alongside a frontend developer
+- Run self-managed Linux servers with PostgreSQL, including backups, TLS and upgrades
+
+### **Junior Software Developer** @ Matalli Infotech (Aug 2018 – Feb 2021)
+
+- Built and maintained internal web applications on Django 2.2 LTS
+- Wrote unit and database-level tests to keep regressions out of releases
+- Introduced CI/CD pipelines to shorten the release cycle
+- Managed deployments to Linux servers, AWS and Heroku with minimal downtime
+
+### **Web Developer Intern** @ Matalli Infotech (Oct 2017 – Dec 2017)
+
+- Learned Django on a live codebase with the team that hired me the following year
 
 ---
 
-## Education
+## 🎓 Education
 
-B.Sc, Computer Science · P V G's College of Science, 2014–2018
+**Bachelor of Science (B.Sc), Computer Science**  
+P V G's College Of Science (2014 - 2018)
+
+### Certifications & Training
+
+- **Full Stack Development** - Internshala (Oct 2025 - Apr 2026)
+- **Master the Coding Interview: Data Structures + Algorithms** - Udemy (Apr 2025 - Jan 2026)
+- **The Complete JavaScript Course** - Udemy (Jun 2025 - Nov 2025)
+- **Microservices with Node.js and React** - Udemy (Apr 2024 - Sep 2025)
+- **The Complete Full-Stack Web Development Bootcamp** - Udemy (Jun 2023 - Feb 2024)
+- **Python Django: The Practical Guide** - Udemy (Jan 2021 - Aug 2021)
 
 ---
 
-## Contact
+## 🤝 Let's Connect!
 
-[Email](mailto:akashdamle07@gmail.com) · [LinkedIn](https://www.linkedin.com/in/akash-damle-58a808258/) · [Website](https://www.akashdamle.in)
+[![Website](https://img.shields.io/badge/Website-akashdamle.in-2E7D32?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.akashdamle.in)
+[![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:akashdamle07@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/akash-damle-58a808258/)
+
+---
+
+**Status:** 🟢 Open to remote backend roles
