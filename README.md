@@ -65,7 +65,8 @@
 | **Experience**          | 8+ years of total experience                          |
 | **Client Systems**      | 27+ Django CRM systems, built and self-hosted         |
 | **Clients**             | Schools, clinics and small businesses                 |
-| **Latest Releases**     | lead-platform v1.0.0: 99 backend and 74 frontend tests |
+| **Latest Releases**     | operations-api v1.0.0: staff, attendance and payroll, 346 tests |
+|                         | lead-platform v1.0.0: 99 backend and 74 frontend tests |
 |                         | bharat-post-dir v1.0.0: 155,599 offices, 119 tests    |
 
 ---
@@ -75,6 +76,15 @@
 ### 🧭 CRM · In research and planning
 
 My main product: a CRM that arrives already set up for how your business works (sales, agency, real estate or field services) instead of making you configure it first.
+
+### 🧾 [Operations API](https://github.com/code-kasha/operations-api)
+
+The staff side of a small organisation, from shifts and leave to payroll, built with fictional data
+
+- **Tech:** Django, Django REST Framework, PostgreSQL, Docker
+- **Features:** Staff and roles, shifts and attendance, leave reviews, office timesheets and overtime, monthly payroll, reports
+- **Highlights:** Role-scoped access with hidden records returning 404, working-day pro-rating with overtime paid exactly once, pay runs that lock
+- **Release:** v1.0.0 with a public Docker image and a [live demo](https://operations-api-ji51.onrender.com/) (until 27 December 2026)
 
 ### 📮 [bharat-post-dir](https://github.com/code-kasha/bharat-post-dir)
 
