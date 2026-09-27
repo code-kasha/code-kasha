@@ -77,6 +77,16 @@
 
 My main product: a CRM that arrives already set up for how your business works (sales, agency, real estate or field services) instead of making you configure it first.
 
+### 🗂️ [Lead Management Platform](https://github.com/code-kasha/lead-platform)
+
+Lead management built to a short deadline as a qualification task
+
+- **Tech:** Django REST Framework, PostgreSQL, React, TypeScript, Docker
+- **Features:** Lead creation, assignment, a validated status pipeline, notes, an automatic activity timeline and a public enquiry form
+- **Highlights:** Role-based access enforced on the server, TypeScript types generated from the OpenAPI schema and checked in CI, rotating and blacklisted JWT refresh tokens
+- **Release:** v1.0.0 with a public Docker image and a [live demo](https://lead-platform-c3mw.onrender.com/) (until 26 December 2026)
+- **Write-up:** [akashdamle.in/projects/lead-platform](https://www.akashdamle.in/projects/lead-platform)
+
 ### 🧾 [Operations API](https://github.com/code-kasha/operations-api)
 
 The staff side of a small organisation, from shifts and leave to payroll, built with fictional data
@@ -85,6 +95,7 @@ The staff side of a small organisation, from shifts and leave to payroll, built 
 - **Features:** Staff and roles, shifts and attendance, leave reviews, office timesheets and overtime, monthly payroll, reports
 - **Highlights:** Role-scoped access with hidden records returning 404, working-day pro-rating with overtime paid exactly once, pay runs that lock
 - **Release:** v1.0.0 with a public Docker image and a [live demo](https://operations-api-ji51.onrender.com/) (until 27 December 2026)
+- **Write-up:** [akashdamle.in/projects/operations-api](https://www.akashdamle.in/projects/operations-api)
 
 ### 📮 [bharat-post-dir](https://github.com/code-kasha/bharat-post-dir)
 
@@ -94,22 +105,15 @@ India's postal directory as a lookup page, a JSON API and a one-file download
 - **Features:** PIN lookup, office search, whole-directory download, bring your own dataset
 - **Highlights:** All-or-nothing imports, one-request lookup page with no JavaScript, provenance on every page
 - **Release:** v1.0.0 with a public Docker image and a [live demo](https://bharat-post-dir.onrender.com/) (until 26 December 2026)
-
-### 🗂️ [Lead Management Platform](https://github.com/code-kasha/lead-platform)
-
-Lead management built to a short deadline as a qualification task
-
-- **Tech:** Django REST Framework, PostgreSQL, React, TypeScript, Docker
-- **Features:** Lead creation, assignment, a validated status pipeline, notes, an automatic activity timeline and a public enquiry form
-- **Highlights:** Role-based access enforced on the server, TypeScript types generated from the OpenAPI schema and checked in CI, rotating and blacklisted JWT refresh tokens
-- **Release:** v1.0.0 with a public Docker image and a [live demo](https://lead-platform-c3mw.onrender.com/) (until 26 December 2026)
+- **Write-up:** [akashdamle.in/projects/bharat-post-dir](https://www.akashdamle.in/projects/bharat-post-dir)
 
 ### 🌐 [Portfolio](https://github.com/code-kasha/akash-damle-portfolio)
 
-The source for [akashdamle.in](https://www.akashdamle.in): my projects and case studies
+The source for [akashdamle.in](https://www.akashdamle.in): my projects, their write-ups and a blog
 
 - **Tech:** Next.js, React, TypeScript, Tailwind CSS
-- **Features:** Project case studies, sitemap and robots generated from one profile file, generated social card
+- **Features:** A write-up per project (problem, constraint, approach, outcome), a blog, light and dark themes, generated share cards
+- **Highlights:** One profile file drives the site, the sitemap and both résumé PDFs, so they never state different facts
 
 ---
 
@@ -157,6 +161,8 @@ P V G's College Of Science (2014 - 2018)
 [![Website](https://img.shields.io/badge/Website-akashdamle.in-2E7D32?style=for-the-badge&logo=googlechrome&logoColor=white)](https://www.akashdamle.in)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:akashdamle07@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/akash-damle-58a808258/)
+[![Résumé](https://img.shields.io/badge/R%C3%A9sum%C3%A9-1%20page-555555?style=for-the-badge&logo=readdotcv&logoColor=white)](https://www.akashdamle.in/Resume.pdf)
+[![Full résumé](https://img.shields.io/badge/R%C3%A9sum%C3%A9-full-555555?style=for-the-badge&logo=readdotcv&logoColor=white)](https://www.akashdamle.in/Resume%28Long%29.pdf)
 
 ---
 
