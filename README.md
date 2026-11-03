@@ -28,6 +28,7 @@
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+![Fastify](https://img.shields.io/badge/Fastify-000000?style=for-the-badge&logo=fastify&logoColor=white)
 
 ### Databases
 
@@ -65,7 +66,8 @@
 | **Experience**          | 8+ years of total experience                          |
 | **Client Systems**      | 27+ Django CRM systems, built and self-hosted         |
 | **Clients**             | Schools, clinics and small businesses                 |
-| **Latest Releases**     | operations-api v1.0.0: staff, attendance and payroll, 346 tests |
+| **Latest Releases**     | webhook-delivery v1.0.0: signed webhooks with retries, 85 tests |
+|                         | operations-api v1.0.0: staff, attendance and payroll, 346 tests |
 |                         | lead-platform v1.0.0: 99 backend and 74 frontend tests |
 |                         | bharat-post-dir v1.0.0: 155,599 offices, 119 tests    |
 
@@ -73,9 +75,11 @@
 
 ## 🎯 Featured Projects
 
-### 🧭 CRM · In research and planning
+### 🧭 Crono · CRM · In development, coming soon
 
-My main product: a CRM that arrives already set up for how your business works (sales, agency, real estate or field services) instead of making you configure it first.
+My main product: a CRM that arrives already set up for how your business works (sales, agency, real estate or field services) instead of making you configure it first. It is being built now in a private repository.
+
+One part of it will go online, free for everyone to use, and will be listed here alongside the other projects when it is released.
 
 ### 🗂️ [Lead Management Platform](https://github.com/code-kasha/lead-platform)
 
@@ -86,6 +90,16 @@ Lead management built to a short deadline as a qualification task
 - **Highlights:** Role-based access enforced on the server, TypeScript types generated from the OpenAPI schema and checked in CI, rotating and blacklisted JWT refresh tokens
 - **Release:** v1.0.0 with a public Docker image and a [live demo](https://lead-platform-c3mw.onrender.com/) (until 26 December 2026)
 - **Write-up:** [akashdamle.in/projects/lead-platform](https://www.akashdamle.in/projects/lead-platform)
+
+### 📡 [Webhook Delivery](https://github.com/code-kasha/webhook-delivery)
+
+A self-hostable service that delivers signed webhooks and keeps every attempt on record
+
+- **Tech:** Node.js, TypeScript, Fastify, PostgreSQL, Zod, Docker
+- **Features:** Endpoint subscriptions, admin and publish-only API keys, HMAC-SHA256 signatures, retries with jitter, a failed-delivery queue, manual replay and a full attempt history
+- **Highlights:** Idempotency keys so concurrent requests create one event, fenced worker leases that survive crashes, secret rotation with a 24-hour overlap, SSRF-safe outbound requests
+- **Release:** v1.0.0 under MIT with a public Docker image and a [live demo](https://webhook-delivery-demo.onrender.com/docs) (until 28 December 2026)
+- **Write-up:** [akashdamle.in/projects/webhook-delivery](https://www.akashdamle.in/projects/webhook-delivery)
 
 ### 🧾 [Operations API](https://github.com/code-kasha/operations-api)
 
@@ -107,6 +121,16 @@ India's postal directory as a lookup page, a JSON API and a one-file download
 - **Release:** v1.0.0 with a public Docker image and a [live demo](https://bharat-post-dir.onrender.com/) (until 26 December 2026)
 - **Write-up:** [akashdamle.in/projects/bharat-post-dir](https://www.akashdamle.in/projects/bharat-post-dir)
 
+### ⛽ [Fuelora](https://github.com/code-kasha/fuelora)
+
+Fuel prices for India (by state) and the world (by country), compared side by side and run on your own computer
+
+- **Tech:** Python, HTMX, Tailwind CSS, standard-library HTTP server
+- **Features:** Petrol, diesel, kerosene and crude oil, search and sort, currency conversion and CSV export of the current view
+- **Highlights:** Parsers refuse rather than guess, a second source cross-checks the India figures, and nothing fetched is committed to the repository
+- **Status:** A personal research project under MIT; not an official source of prices
+- **Write-up:** [akashdamle.in/projects/fuelora](https://www.akashdamle.in/projects/fuelora)
+
 ### 🌐 [Portfolio](https://github.com/code-kasha/akash-damle-portfolio)
 
 The source for [akashdamle.in](https://www.akashdamle.in): my projects, their write-ups and a blog
@@ -114,6 +138,13 @@ The source for [akashdamle.in](https://www.akashdamle.in): my projects, their wr
 - **Tech:** Next.js, React, TypeScript, Tailwind CSS
 - **Features:** A write-up per project (problem, constraint, approach, outcome), a blog, light and dark themes, generated share cards
 - **Highlights:** One profile file drives the site, the sitemap and both résumé PDFs, so they never state different facts
+
+### 🔒 Also built, in private repositories
+
+Complete software that is not public, so there are no links:
+
+- **Rootstock** - a Django starter with authentication, HTMX and Tailwind templates and optional APIs, tested across Python and Django versions in CI
+- **Pro Meet Desk** - appointment and meeting management for professionals in India, with public booking pages, approvals, private notes and an audit trail
 
 ---
 
